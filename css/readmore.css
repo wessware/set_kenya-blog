@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+.expandMoreContent {
+    height: 100px;
+    overflow: hidden;
+    transition: height .5s ease-in-out;
+    position: relative;
+}
+
+
+.expandMoreContent.expand-active {
+    height: auto;
+    transition: height .5s ease-in-out;
+}
+.expandMoreHolder {
+    padding: 15px;
+    text-align: center;
+}
